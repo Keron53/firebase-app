@@ -37,3 +37,33 @@
   }
 }
 
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card{
+  background-color: hsla(0, 0%, 100%, 0.949);
+  padding: 2px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px #ccc;
+  width: 600px;
+  text-align: center;
+}
+
+.card1{
+  background-color: #366842f2;
+  padding: 2px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px #ccc;
+  text-align: center;
+}
+
+
+.card-f{
+  background-color: hsla(135, 22%, 85%, 0.949);
+  padding: 2px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px #ccc;
+  text-align: center;
+}

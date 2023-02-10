@@ -42,12 +42,13 @@ function App() {
   return (
     <div className="App">
       <form onSubmit={guardarRegistro}>
-       <input type='text' placeholder='Titulo' onChange={(event) => setNuevoTitulo(event.target.value) }/>
-       <input type='text' placeholder='Descripcion' onChange={(event) => setNuevaDescripcion(event.target.value) }/>
-       <input type='text' placeholder='Responsable' onChange={(event) => setNuevoResponsable(event.target.value) }/>
-       <input type='text' placeholder='Prioridad' onChange={(event) => setNuevaPrioridad(event.target.value) }/>
+       <input style={{padding: '10px 20px'}} type='text' placeholder='Titulo' onChange={(event) => setNuevoTitulo(event.target.value) }/>
+       <input style={{padding: '10px 20px'}} type='text' placeholder='Descripcion' onChange={(event) => setNuevaDescripcion(event.target.value) }/>
+       <input style={{padding: '10px 20px'}} type='text' placeholder='Responsable' onChange={(event) => setNuevoResponsable(event.target.value) }/>
+       <input style={{padding: '10px 20px'}} type='text' placeholder='Prioridad' onChange={(event) => setNuevaPrioridad(event.target.value) }/>
 
-       <button>Guardar</button>
+       <button style={{color: 'white', backgroundColor:'green', border:'green', padding:'12px'}} >Guardar</button>
+       <button style={{color: 'white', backgroundColor:'#30BA96', border:'green', padding:'12px'}} >Actualizar</button>
        </form>
         <Tareas tareas={tareas}/>
     </div>
